@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define num 100
+int main()
+{
+	printf("%d\n",num);
+	int n = num;
+	printf("%d\n", n);
+	int arr[num] = { 0 };
+	return 0;
+}
